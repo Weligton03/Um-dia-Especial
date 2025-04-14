@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background: linear-gradient(to bottom right, #9150c3, #c6a0e4);
+    color: #333;
+    text-align: center;
+}
+
+header {
+    padding: 50px 20px;
+}
+
+h1 {
+    font-size: 3em;
+    color: #7818c2;
+}
+p {
+    font-size: 1.5em;
+}
+section {
+    margin: 40px 20px;
+}
+
+.momentos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.foto {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+h2 {
+    font-size: 2.5em;
+    color: #7818c2;
+}
+
+.botao-pedido {
+    background-color: #7818c2;
+    color: white;
+    padding: 20px 40px;
+    font-size: 1.5em;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.mais{
+    background-color: #b22323;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    font-size: 0.5em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0,5s;
+}
+.botao-pedido:hover {
+    background-color: #7818c2;
+}
+
+footer {
+    margin-top: 60px;
+    font-size: 0.9em;
+    color: #666;
+}
