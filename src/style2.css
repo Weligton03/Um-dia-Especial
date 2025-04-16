@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-size: 2em;
+    font-family: 'Georgia', serif;
+    background: linear-gradient(to bottom right, #9150c3, #c6a0e4);
+    color: black;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+    
+}
+.frase {
+    background-color: #DDA0DD;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px 0;
+    text-align: center;
+    font-size: 18px;
+}
+.resposta {
+    font-size: 0.5em;
+}
